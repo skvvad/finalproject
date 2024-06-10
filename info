@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information - Kazakhstan Violence</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .card.zoom-effect:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        body {
+            background-color: #e3f2fd; 
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .language-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .carousel-item img {
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .news-card {
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html" data-lang="en">Kazakhstan Violence</a>
+    <a class="navbar-brand" href="index.html" data-lang="kz" style="display:none;">Қазақстандағы зорлық-зомбылық</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" data-lang="en">Home</a>
+                <a class="nav-link" href="index.html" data-lang="kz" style="display:none;">Басты бет</a>
+   </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="info.html">Info<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="info.html" data-lang="kz" style="display:none;">Ақпарат <span class="sr-only">(қазіргі)</span></a>
+        </li>
+                <a class="nav-link" href="more.html" data-lang="en">More</a>
+                <a class="nav-link" href="more.html" data-lang="kz" style="display:none;">Толығырақ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="quiz.html" data-lang="en">Quiz </a>
+                <a class="nav-link" href="quiz.html" data-lang="kz" style="display:none;">Викторина <span class="sr-only">(қазіргі)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+  
+
+    <div class="row my-4">
+        <div class="col">
+            <h3 data-lang="en">Beginner Journalist Command</h3>
+            <h3 data-lang="kz" style="display:none;">Бастауыш журналист командасы</h3>
+            <p data-lang="en">On this page you can learn more about the authors of this page, those who, at their young age, have already succeeded in their big way.</p>
+            <p data-lang="kz" style="display:none;">Бұл бетте Сіз осы беттің авторлары туралы көбірек ақпарат алуға болады, олар, жасында бірнеше көп қалыптасқан жасырында өз жолынан өткендер.</p>
+        </div>
+    </div>
+
+  
+
+    <div class="row my-4">
+        <div class="col-md-3">
+            <div class="card zoom-effect">
+                <img src="C:\Users\akmet\OneDrive\Рабочий стол\photo_2024-06-10_07-08-07.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b data-lang="en">Aizhan Albek.</b> <b data-lang="kz" style="display:none;">Айжан Албек.</b> DJ-2301.<span data-lang="en">First article about feminicide.</span><span data-lang="kz" style="display:none;">Тамақ қысқарып кетті.</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card zoom-effect">
+                <img src="C:\Users\akmet\OneDrive\Рабочий стол\photo_2024-06-10_07-09-03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b data-lang="en">Viktoriya Akhmetova.</b> <b data-lang="kz" style="display:none;">Виктория Ахметова.</b> DJ-2301. <span data-lang="en">Crate WebSite for articles about violence</span><span data-lang="kz" style="display:none;">Тамақ қысқарып кетті.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card zoom-effect">
+                <img src="C:\Users\akmet\OneDrive\Рабочий стол\photo_2024-06-10_07-08-41.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b data-lang="en">Miyon Pak.</b> <b data-lang="kz" style="display:none;">Мион Пак.</b> DJ-2301. <span data-lang="en">StartUp about corruption in Kazakhstan.</span><span data-lang="kz" style="display:none;">Тамақ қысқарып кетті.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card zoom-effect">
+                <img src="C:\Users\akmet\OneDrive\Рабочий стол\photo_2024-06-10_07-08-25.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b data-lang="en">Arailym Kadyr.</b> <b data-lang="kz"
+="kz" style="display:none;">Арайлым Қадыр.</b> DJ-2301. <span data-lang="en">Sponsored projects of other journalists. </span><span data-lang="kz" style="display:none;">Тамақ қысқарып кетті.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="language-selector">
+    <button class="btn btn-primary" id="lang-en">EN</button>
+    <button class="btn btn-primary" id="lang-kz" style="display:none;">KZ</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Language Switching
+    $('#lang-en').click(function(){
+        $('[data-lang="en"]').show();
+        $('[data-lang="kz"]').hide();
+        $('#lang-en').hide();
+        $('#lang-kz').show();
+    });
+
+    $('#lang-kz').click(function(){
+        $('[data-lang="en"]').hide();
+        $('[data-lang="kz"]').show();
+        $('#lang-en').show();
+        $('#lang-kz').hide();
+    });
+</script>
+</body>
+</html>
